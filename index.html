@@ -1,0 +1,223 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Hello | Samworks</title>
+  
+  <link rel="stylesheet" href="assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="assets/css/jquery.pagepiling.css">
+  <link rel="stylesheet" href="assets/css/main.css">
+</head>
+<body>
+  <nav class="navbar navbar-expand-lg fixed-top bg-transparent">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Samuel M's</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="container collapse navbar-collapse" id="navbarNav">
+        <ul id="site-menu" class="navbar-nav ms-auto pe-4">
+          <li data-menuanchor="home" class="nav-item active">
+            <a class="nav-link text-dark fsub me-4" aria-current="page" href="#home">home</a>
+          </li>
+          <li data-menuanchor="about" class="nav-item">
+            <a class="nav-link text-dark fsub me-4" href="#about">about</a>
+          </li>
+          <li data-menuanchor="portfolio" class="nav-item">
+            <a class="nav-link text-dark fsub me-4" href="#portfolio">portfolio</a>
+          </li>
+          <li data-menuanchor="contact" class="nav-item">
+            <a class="nav-link text-dark fsub me-4" href="#contact">contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+  </nav>
+  <div id="views">
+    <div id="view-home" class="section">
+      <div class="ps-4 h-100">
+        <div class="d-flex justify-content-center flex-column h-75 pt-4">
+          <p class="fsub text-orange">home@samuelworks.org <span class="text-purple">~$ ./hello</span></p>
+          <h1 class="fheading w-60 text-purple-dark">Hi there! Thanks for stopping by. My name is <span class="highlight">Sam</span> and I make awesome apps for a living. Make yourself at home and feel free to browse a collection of my past projects</h1>
+          <div class="d-flex mt-4">
+            <a href="#portfolio" class="btn-blank me-2" role="button">>>> <span class="blank-underline">viewMyWork</span></a>
+            <a href="#contact" class="btn-filled ms-2" role="button">>>> letsChat()</a>
+          </div>
+        </div>
+        <div id="social-links" class="d-flex justify-content-end align-items-end w-60 pe-4 h-25">
+          <a class="m-4" target="_blank" href="https://www.youtube.com/channel/UCbGXvpSj5J-Xn0v_tFtitVQ"><img src="assets/imgs/ic_youtube.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" target="_blank" href="https://www.instagram.com/elasticsam/"><img src="assets/imgs/ic_instagram.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" target="_blank" href="https://github.com/qodzero"><img src="assets/imgs/ic_github.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" target="_blank" href="mailto:samuel@samuelworks.org"><img src="assets/imgs/ic_email.svg" alt="Instagram Link" height="32"></a>
+        </div>
+      </div>
+    </div>
+    <div id="view-about" class="section">
+      <div class="ps-4 h-100">
+        <div class="d-flex justify-content-center flex-column h-100 pt-4">
+          <p class="fsub text-red m-0 mt-4 p-0">about@samuelworks.org <span class="text-blue">~$ whoami</span></p>
+          <h3 class="fheading w-60 text-purple-dark">My name is <span class="highlight">Samuel Mthembo</span>, I’m a Full-Stack Software Developer working with React, Flutter & Kivy for the Frontend and Python for the Backend.</h3>
+          <p class="fsub text-red m-0 mt-4 p-0">about@samuelworks.org <span class="text-blue">~$ ./my_education</span></p>
+          <h5 class="fheading w-60 text-purple-dark text-uppercase">Certificate In Web And Graphic Design</h5>
+          <p class="text-purple-dark w-50 fs-14">I obtained a design certificate from Prestige College in 2014, passing all the tests with perfect distinctions.</p>
+          <h5 class="fheading w-60 text-purple-dark text-uppercase">Diploma In Professional Computing And Information Processing</h5>
+          <p class="text-purple-dark w-50 fs-14">I graduated from Bulawayo Polytechnic with an Institute Of Commercial Management(UK) Diploma in 2016.</p>
+          <p class="text-purple-dark w-50  m-0 p-0 fs-14">I’ve always been passionate and quite psyched about Computers and software in general so after college, I taught myself how to write code starting with learning python. After that learning everything else was pretty easy from here, that’s how I’ve gotten this far. I push myself everyday to learn new technologies and more efficient ways to solve problems.</p>
+          <div class="d-flex mt-4">
+            <a href="https://www.instagram.com/elasticsam/" target=""_blank class="btn-filled" role="button">>>> followMe()</a>
+          </div>
+        </div>
+        <!-- <div id="social-links" class="d-flex justify-content-end align-items-end w-60 pe-4 h-25">
+          <a class="m-4" href="#"><img src="assets/imgs/ic_youtube.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" href="#"><img src="assets/imgs/ic_instagram.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" href="#"><img src="assets/imgs/ic_github.svg" alt="Instagram Link" height="32"></a>
+          <a class="m-4" href="#"><img src="assets/imgs/ic_email.svg" alt="Instagram Link" height="32"></a>
+        </div> -->
+      </div>
+    </div>
+    <div id="view-portfolio" class="section pp-scrollable">
+      <div class="container row d-flex justify-content-center">
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/finager-4_3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Finance Tracker App</h6>
+              <p class="card-text fs-14">A Frontend UI For A Finance tracking mobile app</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">kivy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/plant-ui.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Plant Care App</h6>
+              <p class="card-text fs-14">A Frontend UI For An Indoor plant care routine app</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">kivy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/timewinder.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Time Tracking App</h6>
+              <p class="card-text fs-14">A Time Tracking App featuring Pomodoro and Analytics</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-primary text-light me-2">Flutter</span><span class="badge bg-warning text-light">Firebase</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/finager-4_3.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Spending Monitoring App</h6>
+              <p class="card-text fs-14">A Frontend UI For A Spending Tracker mobile app</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">kivy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/trolee.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Online Grocery App</h6>
+              <p class="card-text fs-14">An online grocery shopping and delivery app</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-primary text-light me-2">Flutter</span><span class="badge bg-warning text-light">Firebase</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/organik.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Project Management App</h6>
+              <p class="card-text fs-14">A Project and Task Planning desktop app</p>
+              <p><span class="badge bg-secondary text-light me-2">desktop</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">Kivy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/sociallo.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Instant Messenger App</h6>
+              <p class="card-text fs-14">Sockets random chat app</p>
+              <p><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-secondary text-light me-2">desktop</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">Kivy</span></p>
+            </div>
+          </div>
+        </div>
+        <div class="col-lg-3 col-md-4 col-sm-12">
+          <div class="card border-0 shadow-lg">
+            <img src="assets/imgs/pos.png" class="card-img-top" alt="...">
+            <div class="card-body">
+              <h6 class="fheading text-purple-dark">Hybrid POS System</h6>
+              <p class="card-text fs-14">An SME POS System</p>
+              <p><span class="badge bg-secondary text-light me-2">desktop</span><span class="badge bg-success text-light me-2">mobile</span><span class="badge bg-info text-dark me-2">Python</span><span class="badge bg-danger text-light">Kivy</span></p>
+            </div>
+          </div>
+        </div>
+        
+      </div>
+    </div>
+    <div id="view-contact" class="section">
+      <div class="background">
+        <div class="container">
+          <div class="screen">
+            <div class="screen-header">
+              <div class="screen-header-left">
+                <div class="screen-header-button close"></div>
+                <div class="screen-header-button maximize"></div>
+                <div class="screen-header-button minimize"></div>
+              </div>
+              <div class="screen-header-right">
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+                <div class="screen-header-ellipsis"></div>
+              </div>
+            </div>
+            <div class="screen-body">
+              <div class="screen-body-item left">
+                <div class="app-title">
+                  <span>WRITE TO</span>
+                  <span>ME</span>
+                </div>
+                <div class="app-contact">CALL/APP : +32 460 247 494</div>
+              </div>
+              <div class="screen-body-item">
+                <form action="https://formspree.io/f/samuel@samuelworks.org" method="POST">
+                  <div class="app-form">
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="NAME" name="userName">
+                    </div>
+                    <div class="app-form-group">
+                      <input class="app-form-control" placeholder="EMAIL" name="userEmail">
+                    </div>
+                    <div class="app-form-group message">
+                      <input class="app-form-control" placeholder="MESSAGE" name="userMessage">
+                    </div>
+                    <div class="app-form-group buttons">
+                      <button class="app-form-button">CANCEL</button>
+                      <button type="submit" class="app-form-button">SEND</button>
+                    </div>
+                  </div>
+
+                </form>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+    </div>
+  </div>
+  
+  <script src="assets/js/jquery-3.6.0.min.js"></script>
+  <script src="assets/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/js/jquery.pagepiling.min.js"></script>
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
